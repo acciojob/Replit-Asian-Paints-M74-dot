@@ -1,7 +1,7 @@
 //your JS code here. If required.
 document.addEventListener('DOMContentLoaded',()=>{
 	const changeBtn = document.querySelector('#change_button');
-	const resetBtn = document.querySelector('#reset');
+	const resetBtn = document.querySelector('#reset_button');
 
 	changeBtn.addEventListener('click',()=>{
 		const blockId = document.querySelector('#block_id').value;
